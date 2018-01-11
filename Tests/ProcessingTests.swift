@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import XCTest
-import Nuke
+import NukeWebP
 
 #if !os(macOS)
     import UIKit

@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
 private let data: Data = {
     let bundle = Bundle(for: MockDataLoader.self)

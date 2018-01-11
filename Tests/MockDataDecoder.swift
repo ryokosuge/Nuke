@@ -3,9 +3,9 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
-class MockFailingDecoder: Nuke.DataDecoding {
+class MockFailingDecoder: NukeWebP.DataDecoding {
     var isFailing = false
 
     func decode(data: Data, response: URLResponse) -> Image? {

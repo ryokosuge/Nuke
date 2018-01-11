@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
+               BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
                BuildableName = "Nuke.framework"
-               BlueprintName = "Nuke watchOS"
-               ReferencedContainer = "container:Nuke.xcodeproj">
+               BlueprintName = "NukeWebP macOS"
+               ReferencedContainer = "container:NukeWebP.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0C22DA371BCAA22A006E1D3B"
+               BuildableName = "NukeWebP macOS Tests.xctest"
+               BlueprintName = "NukeWebP macOS Tests"
+               ReferencedContainer = "container:NukeWebP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,7 +43,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0C22DA371BCAA22A006E1D3B"
+               BuildableName = "NukeWebP macOS Tests.xctest"
+               BlueprintName = "NukeWebP macOS Tests"
+               ReferencedContainer = "container:NukeWebP.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
+            BuildableName = "Nuke.framework"
+            BlueprintName = "NukeWebP macOS"
+            ReferencedContainer = "container:NukeWebP.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -47,10 +80,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
+            BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
             BuildableName = "Nuke.framework"
-            BlueprintName = "Nuke watchOS"
-            ReferencedContainer = "container:Nuke.xcodeproj">
+            BlueprintName = "NukeWebP macOS"
+            ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +98,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
+            BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
             BuildableName = "Nuke.framework"
-            BlueprintName = "Nuke watchOS"
-            ReferencedContainer = "container:Nuke.xcodeproj">
+            BlueprintName = "NukeWebP macOS"
+            ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

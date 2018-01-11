@@ -4,5 +4,5 @@
 
 @import Foundation;
 
-FOUNDATION_EXPORT double NukeVersionNumber;
-FOUNDATION_EXPORT const unsigned char NukeVersionString[];
+FOUNDATION_EXPORT double NukeWebPVersionNumber;
+FOUNDATION_EXPORT const unsigned char NukeWebPVersionString[];

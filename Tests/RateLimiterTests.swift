@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import XCTest
-@testable import Nuke
+@testable import NukeWebP
 
 
 class RateLimiterTests: XCTestCase {

@@ -97,11 +97,11 @@
 		0C75279E1D473AEF00EC6222 /* MockCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C06891BCA888800089D7F /* MockCache.swift */; };
 		0C75279F1D473AEF00EC6222 /* MockImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068A1BCA888800089D7F /* MockImageProcessor.swift */; };
 		0C7527A01D473AF100EC6222 /* MockImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C01287F1D43E85100668A1F /* MockImageLoader.swift */; };
-		0C778CFD1D89634B00361A1F /* Nuke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* Nuke.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C778CFE1D89634B00361A1F /* Nuke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* Nuke.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C778CFF1D89634B00361A1F /* Nuke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* Nuke.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C778D001D89634B00361A1F /* Nuke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* Nuke.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C7C067C1BCA882A00089D7F /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* Nuke.framework */; };
+		0C778CFD1D89634B00361A1F /* NukeWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* NukeWebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C778CFE1D89634B00361A1F /* NukeWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* NukeWebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C778CFF1D89634B00361A1F /* NukeWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* NukeWebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C778D001D89634B00361A1F /* NukeWebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C778CFC1D89634B00361A1F /* NukeWebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7C067C1BCA882A00089D7F /* NukeWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* NukeWebP.framework */; };
 		0C7C06971BCA888800089D7F /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068C1BCA888800089D7F /* MockDataLoader.swift */; };
 		0C7C06981BCA888800089D7F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068D1BCA888800089D7F /* Tests.swift */; };
 		0C7C06991BCA888800089D7F /* XCTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068E1BCA888800089D7F /* XCTestCaseExtensions.swift */; };
@@ -113,9 +113,9 @@
 		0C8D7BD81D9DBF1600D12EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8D7BD61D9DBF1600D12EB7 /* Main.storyboard */; };
 		0C8D7BDA1D9DBF1600D12EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8D7BD91D9DBF1600D12EB7 /* Assets.xcassets */; };
 		0C8D7BDD1D9DBF1600D12EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8D7BDB1D9DBF1600D12EB7 /* LaunchScreen.storyboard */; };
-		0C8D7BED1D9DC02B00D12EB7 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* Nuke.framework */; };
+		0C8D7BED1D9DC02B00D12EB7 /* NukeWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* NukeWebP.framework */; };
 		0C8D7BF51D9DC07E00D12EB7 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8D74201D9D6EEB0036349E /* PerformanceTests.swift */; };
-		0C973E141D9FDB9F00C00AD9 /* Nuke.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C973E141D9FDB9F00C00AD9 /* NukeWebP.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C9174901BAE99EE004A7905 /* NukeWebP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CAAB0101E45D6DA00924450 /* NukeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeExtensions.swift */; };
 		0CAAB0111E45D6DA00924450 /* NukeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeExtensions.swift */; };
 		0CAAB0121E45D6DA00924450 /* NukeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeExtensions.swift */; };
@@ -190,7 +190,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0C973E141D9FDB9F00C00AD9 /* Nuke.framework in CopyFiles */,
+				0C973E141D9FDB9F00C00AD9 /* NukeWebP.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,15 +214,15 @@
 		0C1ECA4B1D526964009063A9 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		0C22D9C51BCA9734006E1D3B /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C22DA2C1BCAA220006E1D3B /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C22DA381BCAA22A006E1D3B /* Nuke macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22DA381BCAA22A006E1D3B /* NukeWebP macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C34BF661D4D15B6006B8A57 /* CancellationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationToken.swift; sourceTree = "<group>"; };
 		0C4AF1E91FE8551D002F86CB /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 		0C4B6A341E36630E00E86B21 /* Nuke 5 Migration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Nuke 5 Migration Guide.md"; sourceTree = "<group>"; };
 		0C5D81871D46A385000ECCB6 /* ThreadSafetyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadSafetyTests.swift; sourceTree = "<group>"; };
 		0C66879A1E41EF2F00CEBFAE /* Third Party Libraries.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Third Party Libraries.md"; sourceTree = "<group>"; };
 		0C7150081FC9724C00B880AC /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
-		0C778CFC1D89634B00361A1F /* Nuke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nuke.h; sourceTree = "<group>"; };
-		0C7C06771BCA882A00089D7F /* Nuke iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C778CFC1D89634B00361A1F /* NukeWebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NukeWebP.h; sourceTree = "<group>"; };
+		0C7C06771BCA882A00089D7F /* NukeWebP iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7C06871BCA888800089D7F /* CacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheTests.swift; sourceTree = "<group>"; };
 		0C7C06881BCA888800089D7F /* ProcessingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessingTests.swift; sourceTree = "<group>"; };
 		0C7C06891BCA888800089D7F /* MockCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCache.swift; sourceTree = "<group>"; };
@@ -232,20 +232,20 @@
 		0C7C068E1BCA888800089D7F /* XCTestCaseExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtensions.swift; sourceTree = "<group>"; };
 		0C7E86141DA59F12002EAD8D /* RateLimiterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateLimiterTests.swift; sourceTree = "<group>"; };
 		0C8D74201D9D6EEB0036349E /* PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
-		0C8D7BD01D9DBF1600D12EB7 /* Nuke iOS Tests Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nuke iOS Tests Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8D7BD01D9DBF1600D12EB7 /* NukeWebP iOS Tests Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NukeWebP iOS Tests Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8D7BD21D9DBF1600D12EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C8D7BD41D9DBF1600D12EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C8D7BD71D9DBF1600D12EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C8D7BD91D9DBF1600D12EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C8D7BDC1D9DBF1600D12EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8D7BDE1D9DBF1600D12EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C8D7BE81D9DC02B00D12EB7 /* Nuke iOS Performance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke iOS Performance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C9174901BAE99EE004A7905 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8D7BE81D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP iOS Performance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9174901BAE99EE004A7905 /* NukeWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C94466D1D47EC0E006DB314 /* ManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerTests.swift; sourceTree = "<group>"; };
 		0CA301701DAF9CD1000B9105 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		0CAAB00F1E45D6DA00924450 /* NukeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NukeExtensions.swift; sourceTree = "<group>"; };
 		0CC345971BD96CFE005C2DD8 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CC345A31BD96D2A005C2DD8 /* Nuke tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuke tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC345A31BD96D2A005C2DD8 /* NukeWebP tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD195291D4348AC00E011BB /* PreheaterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreheaterTests.swift; sourceTree = "<group>"; };
 		0CDB92781DAF9BA500002905 /* Core Image Integration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Core Image Integration Guide.md"; sourceTree = "<group>"; };
 		0CDB92791DAF9BA500002905 /* Installation Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Installation Guide.md"; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 		0CDB927D1DAF9BA500002905 /* Nuke 4 Migration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Nuke 4 Migration Guide.md"; sourceTree = "<group>"; };
 		0CDB927E1DAF9BA500002905 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CDB92801DAF9BB900002905 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		0CDB92811DAF9BC000002905 /* Nuke.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Nuke.podspec; sourceTree = "<group>"; };
+		0CDB92811DAF9BC000002905 /* NukeWebP.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NukeWebP.podspec; sourceTree = "<group>"; };
 		0CDB92821DAF9BC600002905 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CDB92831DAF9BCB00002905 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0CE3992C1D4697CE00A87D47 /* LoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderTests.swift; sourceTree = "<group>"; };
@@ -288,7 +288,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7C067C1BCA882A00089D7F /* Nuke.framework in Frameworks */,
+				0C7C067C1BCA882A00089D7F /* NukeWebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8D7BED1D9DC02B00D12EB7 /* Nuke.framework in Frameworks */,
+				0C8D7BED1D9DC02B00D12EB7 /* NukeWebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +335,7 @@
 		0C096C781BAE9AC9007FE380 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C778CFC1D89634B00361A1F /* Nuke.h */,
+				0C778CFC1D89634B00361A1F /* NukeWebP.h */,
 				0C096C791BAE9AC9007FE380 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -441,15 +441,15 @@
 		0C9174911BAE99EE004A7905 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C9174901BAE99EE004A7905 /* Nuke.framework */,
-				0C7C06771BCA882A00089D7F /* Nuke iOS Tests.xctest */,
+				0C9174901BAE99EE004A7905 /* NukeWebP.framework */,
+				0C7C06771BCA882A00089D7F /* NukeWebP iOS Tests.xctest */,
 				0C22D9C51BCA9734006E1D3B /* Nuke.framework */,
 				0C22DA2C1BCAA220006E1D3B /* Nuke.framework */,
-				0C22DA381BCAA22A006E1D3B /* Nuke macOS Tests.xctest */,
+				0C22DA381BCAA22A006E1D3B /* NukeWebP macOS Tests.xctest */,
 				0CC345971BD96CFE005C2DD8 /* Nuke.framework */,
-				0CC345A31BD96D2A005C2DD8 /* Nuke tvOS Tests.xctest */,
-				0C8D7BD01D9DBF1600D12EB7 /* Nuke iOS Tests Host.app */,
-				0C8D7BE81D9DC02B00D12EB7 /* Nuke iOS Performance Tests.xctest */,
+				0CC345A31BD96D2A005C2DD8 /* NukeWebP tvOS Tests.xctest */,
+				0C8D7BD01D9DBF1600D12EB7 /* NukeWebP iOS Tests Host.app */,
+				0C8D7BE81D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -488,7 +488,7 @@
 			isa = PBXGroup;
 			children = (
 				0CDB92801DAF9BB900002905 /* CHANGELOG.md */,
-				0CDB92811DAF9BC000002905 /* Nuke.podspec */,
+				0CDB92811DAF9BC000002905 /* NukeWebP.podspec */,
 				0CDB92821DAF9BC600002905 /* README.md */,
 				0CDB92831DAF9BCB00002905 /* Package.swift */,
 				0CA301701DAF9CD1000B9105 /* .travis.yml */,
@@ -503,7 +503,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C778CFF1D89634B00361A1F /* Nuke.h in Headers */,
+				0C778CFF1D89634B00361A1F /* NukeWebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +511,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C778CFE1D89634B00361A1F /* Nuke.h in Headers */,
+				0C778CFE1D89634B00361A1F /* NukeWebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +519,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C778CFD1D89634B00361A1F /* Nuke.h in Headers */,
+				0C778CFD1D89634B00361A1F /* NukeWebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,16 +527,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C778D001D89634B00361A1F /* Nuke.h in Headers */,
+				0C778D001D89634B00361A1F /* NukeWebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C22D9C41BCA9734006E1D3B /* Nuke watchOS */ = {
+		0C22D9C41BCA9734006E1D3B /* NukeWebP watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C22D9CA1BCA9734006E1D3B /* Build configuration list for PBXNativeTarget "Nuke watchOS" */;
+			buildConfigurationList = 0C22D9CA1BCA9734006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP watchOS" */;
 			buildPhases = (
 				0C22D9C01BCA9734006E1D3B /* Sources */,
 				0C22D9C11BCA9734006E1D3B /* Frameworks */,
@@ -547,14 +547,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nuke watchOS";
+			name = "NukeWebP watchOS";
 			productName = "Nuke watchOS";
 			productReference = 0C22D9C51BCA9734006E1D3B /* Nuke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0C22DA2B1BCAA220006E1D3B /* Nuke macOS */ = {
+		0C22DA2B1BCAA220006E1D3B /* NukeWebP macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C22DA331BCAA220006E1D3B /* Build configuration list for PBXNativeTarget "Nuke macOS" */;
+			buildConfigurationList = 0C22DA331BCAA220006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP macOS" */;
 			buildPhases = (
 				0C22DA271BCAA220006E1D3B /* Sources */,
 				0C22DA281BCAA220006E1D3B /* Frameworks */,
@@ -565,14 +565,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nuke macOS";
+			name = "NukeWebP macOS";
 			productName = "Nuke OSX";
 			productReference = 0C22DA2C1BCAA220006E1D3B /* Nuke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0C22DA371BCAA22A006E1D3B /* Nuke macOS Tests */ = {
+		0C22DA371BCAA22A006E1D3B /* NukeWebP macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C22DA401BCAA22A006E1D3B /* Build configuration list for PBXNativeTarget "Nuke macOS Tests" */;
+			buildConfigurationList = 0C22DA401BCAA22A006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP macOS Tests" */;
 			buildPhases = (
 				0C22DA341BCAA22A006E1D3B /* Sources */,
 				0C22DA351BCAA22A006E1D3B /* Frameworks */,
@@ -583,14 +583,14 @@
 			dependencies = (
 				0C22DA3F1BCAA22A006E1D3B /* PBXTargetDependency */,
 			);
-			name = "Nuke macOS Tests";
+			name = "NukeWebP macOS Tests";
 			productName = "Nuke OSX Tests";
-			productReference = 0C22DA381BCAA22A006E1D3B /* Nuke macOS Tests.xctest */;
+			productReference = 0C22DA381BCAA22A006E1D3B /* NukeWebP macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C7C06761BCA882A00089D7F /* Nuke iOS Tests */ = {
+		0C7C06761BCA882A00089D7F /* NukeWebP iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7C067F1BCA882A00089D7F /* Build configuration list for PBXNativeTarget "Nuke iOS Tests" */;
+			buildConfigurationList = 0C7C067F1BCA882A00089D7F /* Build configuration list for PBXNativeTarget "NukeWebP iOS Tests" */;
 			buildPhases = (
 				0C7C06731BCA882A00089D7F /* Sources */,
 				0C7C06741BCA882A00089D7F /* Frameworks */,
@@ -602,14 +602,14 @@
 				0C7C067E1BCA882A00089D7F /* PBXTargetDependency */,
 				0C8D7BE31D9DBF3300D12EB7 /* PBXTargetDependency */,
 			);
-			name = "Nuke iOS Tests";
+			name = "NukeWebP iOS Tests";
 			productName = "Nuke Tests";
-			productReference = 0C7C06771BCA882A00089D7F /* Nuke iOS Tests.xctest */;
+			productReference = 0C7C06771BCA882A00089D7F /* NukeWebP iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C8D7BCF1D9DBF1600D12EB7 /* Nuke iOS Tests Host */ = {
+		0C8D7BCF1D9DBF1600D12EB7 /* NukeWebP iOS Tests Host */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C8D7BE11D9DBF1600D12EB7 /* Build configuration list for PBXNativeTarget "Nuke iOS Tests Host" */;
+			buildConfigurationList = 0C8D7BE11D9DBF1600D12EB7 /* Build configuration list for PBXNativeTarget "NukeWebP iOS Tests Host" */;
 			buildPhases = (
 				0C8D7BCC1D9DBF1600D12EB7 /* Sources */,
 				0C8D7BCD1D9DBF1600D12EB7 /* Frameworks */,
@@ -619,14 +619,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nuke iOS Tests Host";
+			name = "NukeWebP iOS Tests Host";
 			productName = "Nuke iOS Tests Host";
-			productReference = 0C8D7BD01D9DBF1600D12EB7 /* Nuke iOS Tests Host.app */;
+			productReference = 0C8D7BD01D9DBF1600D12EB7 /* NukeWebP iOS Tests Host.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C8D7BE71D9DC02B00D12EB7 /* Nuke iOS Performance Tests */ = {
+		0C8D7BE71D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C8D7BF01D9DC02B00D12EB7 /* Build configuration list for PBXNativeTarget "Nuke iOS Performance Tests" */;
+			buildConfigurationList = 0C8D7BF01D9DC02B00D12EB7 /* Build configuration list for PBXNativeTarget "NukeWebP iOS Performance Tests" */;
 			buildPhases = (
 				0C8D7BE41D9DC02B00D12EB7 /* Sources */,
 				0C8D7BE51D9DC02B00D12EB7 /* Frameworks */,
@@ -639,14 +639,14 @@
 				0C8D7BEF1D9DC02B00D12EB7 /* PBXTargetDependency */,
 				0C8D7BF41D9DC03A00D12EB7 /* PBXTargetDependency */,
 			);
-			name = "Nuke iOS Performance Tests";
+			name = "NukeWebP iOS Performance Tests";
 			productName = "Nuke iOS Performance Tests";
-			productReference = 0C8D7BE81D9DC02B00D12EB7 /* Nuke iOS Performance Tests.xctest */;
+			productReference = 0C8D7BE81D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C91748F1BAE99EE004A7905 /* Nuke iOS */ = {
+		0C91748F1BAE99EE004A7905 /* NukeWebP iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C9174981BAE99EE004A7905 /* Build configuration list for PBXNativeTarget "Nuke iOS" */;
+			buildConfigurationList = 0C9174981BAE99EE004A7905 /* Build configuration list for PBXNativeTarget "NukeWebP iOS" */;
 			buildPhases = (
 				0C91748B1BAE99EE004A7905 /* Sources */,
 				0C91748C1BAE99EE004A7905 /* Frameworks */,
@@ -657,14 +657,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nuke iOS";
+			name = "NukeWebP iOS";
 			productName = Nuke;
-			productReference = 0C9174901BAE99EE004A7905 /* Nuke.framework */;
+			productReference = 0C9174901BAE99EE004A7905 /* NukeWebP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0CC345961BD96CFE005C2DD8 /* Nuke tvOS */ = {
+		0CC345961BD96CFE005C2DD8 /* NukeWebP tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CC3459E1BD96CFE005C2DD8 /* Build configuration list for PBXNativeTarget "Nuke tvOS" */;
+			buildConfigurationList = 0CC3459E1BD96CFE005C2DD8 /* Build configuration list for PBXNativeTarget "NukeWebP tvOS" */;
 			buildPhases = (
 				0CC345921BD96CFE005C2DD8 /* Sources */,
 				0CC345931BD96CFE005C2DD8 /* Frameworks */,
@@ -675,14 +675,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nuke tvOS";
+			name = "NukeWebP tvOS";
 			productName = "Nuke tvOS";
 			productReference = 0CC345971BD96CFE005C2DD8 /* Nuke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0CC345A21BD96D2A005C2DD8 /* Nuke tvOS Tests */ = {
+		0CC345A21BD96D2A005C2DD8 /* NukeWebP tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CC345AB1BD96D2A005C2DD8 /* Build configuration list for PBXNativeTarget "Nuke tvOS Tests" */;
+			buildConfigurationList = 0CC345AB1BD96D2A005C2DD8 /* Build configuration list for PBXNativeTarget "NukeWebP tvOS Tests" */;
 			buildPhases = (
 				0CC3459F1BD96D2A005C2DD8 /* Sources */,
 				0CC345A01BD96D2A005C2DD8 /* Frameworks */,
@@ -693,9 +693,9 @@
 			dependencies = (
 				0CC345AA1BD96D2A005C2DD8 /* PBXTargetDependency */,
 			);
-			name = "Nuke tvOS Tests";
+			name = "NukeWebP tvOS Tests";
 			productName = "Nuke tvOS Tests";
-			productReference = 0CC345A31BD96D2A005C2DD8 /* Nuke tvOS Tests.xctest */;
+			productReference = 0CC345A31BD96D2A005C2DD8 /* NukeWebP tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -748,7 +748,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "Nuke" */;
+			buildConfigurationList = 0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "NukeWebP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -761,15 +761,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C91748F1BAE99EE004A7905 /* Nuke iOS */,
-				0C22DA2B1BCAA220006E1D3B /* Nuke macOS */,
-				0C22D9C41BCA9734006E1D3B /* Nuke watchOS */,
-				0CC345961BD96CFE005C2DD8 /* Nuke tvOS */,
-				0C7C06761BCA882A00089D7F /* Nuke iOS Tests */,
-				0C22DA371BCAA22A006E1D3B /* Nuke macOS Tests */,
-				0CC345A21BD96D2A005C2DD8 /* Nuke tvOS Tests */,
-				0C8D7BCF1D9DBF1600D12EB7 /* Nuke iOS Tests Host */,
-				0C8D7BE71D9DC02B00D12EB7 /* Nuke iOS Performance Tests */,
+				0C91748F1BAE99EE004A7905 /* NukeWebP iOS */,
+				0C22DA2B1BCAA220006E1D3B /* NukeWebP macOS */,
+				0C22D9C41BCA9734006E1D3B /* NukeWebP watchOS */,
+				0CC345961BD96CFE005C2DD8 /* NukeWebP tvOS */,
+				0C7C06761BCA882A00089D7F /* NukeWebP iOS Tests */,
+				0C22DA371BCAA22A006E1D3B /* NukeWebP macOS Tests */,
+				0CC345A21BD96D2A005C2DD8 /* NukeWebP tvOS Tests */,
+				0C8D7BCF1D9DBF1600D12EB7 /* NukeWebP iOS Tests Host */,
+				0C8D7BE71D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1029,32 +1029,32 @@
 /* Begin PBXTargetDependency section */
 		0C22DA3F1BCAA22A006E1D3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C22DA2B1BCAA220006E1D3B /* Nuke macOS */;
+			target = 0C22DA2B1BCAA220006E1D3B /* NukeWebP macOS */;
 			targetProxy = 0C22DA3E1BCAA22A006E1D3B /* PBXContainerItemProxy */;
 		};
 		0C7C067E1BCA882A00089D7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C91748F1BAE99EE004A7905 /* Nuke iOS */;
+			target = 0C91748F1BAE99EE004A7905 /* NukeWebP iOS */;
 			targetProxy = 0C7C067D1BCA882A00089D7F /* PBXContainerItemProxy */;
 		};
 		0C8D7BE31D9DBF3300D12EB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C8D7BCF1D9DBF1600D12EB7 /* Nuke iOS Tests Host */;
+			target = 0C8D7BCF1D9DBF1600D12EB7 /* NukeWebP iOS Tests Host */;
 			targetProxy = 0C8D7BE21D9DBF3300D12EB7 /* PBXContainerItemProxy */;
 		};
 		0C8D7BEF1D9DC02B00D12EB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C91748F1BAE99EE004A7905 /* Nuke iOS */;
+			target = 0C91748F1BAE99EE004A7905 /* NukeWebP iOS */;
 			targetProxy = 0C8D7BEE1D9DC02B00D12EB7 /* PBXContainerItemProxy */;
 		};
 		0C8D7BF41D9DC03A00D12EB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C8D7BCF1D9DBF1600D12EB7 /* Nuke iOS Tests Host */;
+			target = 0C8D7BCF1D9DBF1600D12EB7 /* NukeWebP iOS Tests Host */;
 			targetProxy = 0C8D7BF31D9DC03A00D12EB7 /* PBXContainerItemProxy */;
 		};
 		0CC345AA1BD96D2A005C2DD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CC345961BD96CFE005C2DD8 /* Nuke tvOS */;
+			target = 0CC345961BD96CFE005C2DD8 /* NukeWebP tvOS */;
 			targetProxy = 0CC345A91BD96D2A005C2DD8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1092,7 +1092,7 @@
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1115,7 +1115,7 @@
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1140,7 +1140,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1163,7 +1163,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1423,8 +1423,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
+				PRODUCT_NAME = NukeWebP;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
@@ -1444,8 +1444,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
+				PRODUCT_NAME = NukeWebP;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
@@ -1464,7 +1464,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1487,7 +1487,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.kean.Nuke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
 				PRODUCT_NAME = Nuke;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1525,7 +1525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C22D9CA1BCA9734006E1D3B /* Build configuration list for PBXNativeTarget "Nuke watchOS" */ = {
+		0C22D9CA1BCA9734006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C22D9CB1BCA9734006E1D3B /* Debug */,
@@ -1534,7 +1534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C22DA331BCAA220006E1D3B /* Build configuration list for PBXNativeTarget "Nuke macOS" */ = {
+		0C22DA331BCAA220006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C22DA311BCAA220006E1D3B /* Debug */,
@@ -1543,7 +1543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C22DA401BCAA22A006E1D3B /* Build configuration list for PBXNativeTarget "Nuke macOS Tests" */ = {
+		0C22DA401BCAA22A006E1D3B /* Build configuration list for PBXNativeTarget "NukeWebP macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C22DA411BCAA22A006E1D3B /* Debug */,
@@ -1552,7 +1552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C7C067F1BCA882A00089D7F /* Build configuration list for PBXNativeTarget "Nuke iOS Tests" */ = {
+		0C7C067F1BCA882A00089D7F /* Build configuration list for PBXNativeTarget "NukeWebP iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7C06801BCA882A00089D7F /* Debug */,
@@ -1561,7 +1561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C8D7BE11D9DBF1600D12EB7 /* Build configuration list for PBXNativeTarget "Nuke iOS Tests Host" */ = {
+		0C8D7BE11D9DBF1600D12EB7 /* Build configuration list for PBXNativeTarget "NukeWebP iOS Tests Host" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C8D7BDF1D9DBF1600D12EB7 /* Debug */,
@@ -1570,7 +1570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C8D7BF01D9DC02B00D12EB7 /* Build configuration list for PBXNativeTarget "Nuke iOS Performance Tests" */ = {
+		0C8D7BF01D9DC02B00D12EB7 /* Build configuration list for PBXNativeTarget "NukeWebP iOS Performance Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C8D7BF11D9DC02B00D12EB7 /* Debug */,
@@ -1579,7 +1579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "Nuke" */ = {
+		0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "NukeWebP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C9174961BAE99EE004A7905 /* Debug */,
@@ -1588,7 +1588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C9174981BAE99EE004A7905 /* Build configuration list for PBXNativeTarget "Nuke iOS" */ = {
+		0C9174981BAE99EE004A7905 /* Build configuration list for PBXNativeTarget "NukeWebP iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C9174991BAE99EE004A7905 /* Debug */,
@@ -1597,7 +1597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CC3459E1BD96CFE005C2DD8 /* Build configuration list for PBXNativeTarget "Nuke tvOS" */ = {
+		0CC3459E1BD96CFE005C2DD8 /* Build configuration list for PBXNativeTarget "NukeWebP tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CC3459C1BD96CFE005C2DD8 /* Debug */,
@@ -1606,7 +1606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CC345AB1BD96D2A005C2DD8 /* Build configuration list for PBXNativeTarget "Nuke tvOS Tests" */ = {
+		0CC345AB1BD96D2A005C2DD8 /* Build configuration list for PBXNativeTarget "NukeWebP tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CC345AC1BD96D2A005C2DD8 /* Debug */,

@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
 extension Image {
     var nk_test_processorIDs: [String] {
@@ -42,7 +42,7 @@ func ==(lhs: MockImageProcessor, rhs: MockImageProcessor) -> Bool {
 
 // MARK: - MockFailingProcessor
 
-class MockFailingProcessor: Nuke.Processing {
+class MockFailingProcessor: NukeWebP.Processing {
     func process(_ image: Image) -> Image? {
         return nil
     }
