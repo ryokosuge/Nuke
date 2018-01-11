@@ -4,7 +4,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'NukeWebPDemo' do
-	pod 'Nuke-WebP', :path => '../'
+	pod 'NukeWebP', :path => '../'
 	pod 'DFCache'
 	pod 'Preheat', '~>3.0'
 end

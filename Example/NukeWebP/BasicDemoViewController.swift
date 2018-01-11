@@ -3,7 +3,7 @@
 // Copyright (c) 2016 Alexander Grebenyuk (github.com/kean).
 
 import UIKit
-import Nuke
+import NukeWebP
 
 
 private let cellReuseID = "reuseID"
@@ -11,7 +11,7 @@ private let cellReuseID = "reuseID"
 class BasicDemoViewController: UICollectionViewController {
     var photos: [URL]!
     
-    var manager = Nuke.Manager.shared
+    var manager = NukeWebP.Manager.shared
     var itemsPerRow = 4
     
     override func viewDidLoad() {

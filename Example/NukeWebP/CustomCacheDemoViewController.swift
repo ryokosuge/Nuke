@@ -3,7 +3,7 @@
 // Copyright (c) 2016 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 import DFCache
 
 
@@ -12,18 +12,18 @@ final class CustomCacheDemoViewController: BasicDemoViewController {
         super.viewDidLoad()
 
         // Create DFCache instance. It makes sense not to store data in memory cache.
-        let cache = DFCache(name: "com.github.kean.Nuke.CachingDataLoader", memoryCache: nil)
+        let cache = DFCache(name: "com.github.ryokosuge.NukeWebP.CachingDataLoader", memoryCache: nil)
 
         // Create custom CachingDataLoader
         // Disable disk caching built into URLSession
         let conf = URLSessionConfiguration.default
         conf.urlCache = nil
         
-        let dataLoader = CachingDataLoader(loader: Nuke.DataLoader(configuration: conf), cache: cache)
+        let dataLoader = CachingDataLoader(loader: NukeWebP.DataLoader(configuration: conf), cache: cache)
 
         // Create Manager which would utilize our data loader as a part of its
         // image loading pipeline
-        manager = Manager(loader: Nuke.Loader(loader: dataLoader), cache: Nuke.Cache.shared)
+        manager = Manager(loader: NukeWebP.Loader(loader: dataLoader), cache: NukeWebP.Cache.shared)
     }
 }
 
@@ -36,7 +36,7 @@ protocol DataCaching {
 final class CachingDataLoader: DataLoading {
     private let loader: DataLoading
     private let cache: DataCaching
-    private let queue = DispatchQueue(label: "com.github.kean.Nuke.CachingDataLoader")
+    private let queue = DispatchQueue(label: "com.github.ryokosuge.NukeWebP.CachingDataLoader")
 
     public init(loader: DataLoading, cache: DataCaching) {
         self.loader = loader

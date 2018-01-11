@@ -3,7 +3,7 @@
 // Copyright (c) 2016 Alexander Grebenyuk (github.com/kean).
 
 import UIKit
-import Nuke_WebP
+import NukeWebP
 import Preheat
 
 private let cellReuseID = "reuseID"
