@@ -64,7 +64,7 @@
 		0C1ECA501D52811D009063A9 /* ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94466D1D47EC0E006DB314 /* ManagerTests.swift */; };
 		0C1ECA511D52811D009063A9 /* ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94466D1D47EC0E006DB314 /* ManagerTests.swift */; };
 		0C1ECA521D52811D009063A9 /* ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94466D1D47EC0E006DB314 /* ManagerTests.swift */; };
-		0C22DA3D1BCAA22A006E1D3B /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C22DA2C1BCAA220006E1D3B /* Nuke.framework */; };
+		0C22DA3D1BCAA22A006E1D3B /* NukeWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C22DA2C1BCAA220006E1D3B /* NukeWebP.framework */; };
 		0C22DA531BCAAA06006E1D3B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068D1BCA888800089D7F /* Tests.swift */; };
 		0C22DA571BCAAA36006E1D3B /* XCTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068E1BCA888800089D7F /* XCTestCaseExtensions.swift */; };
 		0C22DA581BCAAA3A006E1D3B /* MockCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C06891BCA888800089D7F /* MockCache.swift */; };
@@ -120,7 +120,7 @@
 		0CAAB0111E45D6DA00924450 /* NukeWebPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeWebPExtensions.swift */; };
 		0CAAB0121E45D6DA00924450 /* NukeWebPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeWebPExtensions.swift */; };
 		0CAAB0131E45D6DA00924450 /* NukeWebPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB00F1E45D6DA00924450 /* NukeWebPExtensions.swift */; };
-		0CC345A81BD96D2A005C2DD8 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC345971BD96CFE005C2DD8 /* Nuke.framework */; };
+		0CC345A81BD96D2A005C2DD8 /* NukeWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC345971BD96CFE005C2DD8 /* NukeWebP.framework */; };
 		0CC345C01BD96E16005C2DD8 /* MockCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C06891BCA888800089D7F /* MockCache.swift */; };
 		0CC345C11BD96E16005C2DD8 /* MockImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068A1BCA888800089D7F /* MockImageProcessor.swift */; };
 		0CC345C31BD96E16005C2DD8 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C068C1BCA888800089D7F /* MockDataLoader.swift */; };
@@ -212,8 +212,8 @@
 		0C1E623A1D6FA0FB00AD5CF5 /* CancellationTokenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationTokenTests.swift; sourceTree = "<group>"; };
 		0C1E623E1D70246900AD5CF5 /* MockTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTarget.swift; sourceTree = "<group>"; };
 		0C1ECA4B1D526964009063A9 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
-		0C22D9C51BCA9734006E1D3B /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C22DA2C1BCAA220006E1D3B /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22D9C51BCA9734006E1D3B /* NukeWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22DA2C1BCAA220006E1D3B /* NukeWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C22DA381BCAA22A006E1D3B /* NukeWebP macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C34BF661D4D15B6006B8A57 /* CancellationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationToken.swift; sourceTree = "<group>"; };
 		0C4AF1E91FE8551D002F86CB /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
@@ -244,7 +244,7 @@
 		0C94466D1D47EC0E006DB314 /* ManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerTests.swift; sourceTree = "<group>"; };
 		0CA301701DAF9CD1000B9105 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		0CAAB00F1E45D6DA00924450 /* NukeWebPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NukeWebPExtensions.swift; sourceTree = "<group>"; };
-		0CC345971BD96CFE005C2DD8 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC345971BD96CFE005C2DD8 /* NukeWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NukeWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC345A31BD96D2A005C2DD8 /* NukeWebP tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NukeWebP tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD195291D4348AC00E011BB /* PreheaterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreheaterTests.swift; sourceTree = "<group>"; };
 		0CDB92781DAF9BA500002905 /* Core Image Integration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Core Image Integration Guide.md"; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C22DA3D1BCAA22A006E1D3B /* Nuke.framework in Frameworks */,
+				0C22DA3D1BCAA22A006E1D3B /* NukeWebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +325,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC345A81BD96D2A005C2DD8 /* Nuke.framework in Frameworks */,
+				0CC345A81BD96D2A005C2DD8 /* NukeWebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,10 +443,10 @@
 			children = (
 				0C9174901BAE99EE004A7905 /* NukeWebP.framework */,
 				0C7C06771BCA882A00089D7F /* NukeWebP iOS Tests.xctest */,
-				0C22D9C51BCA9734006E1D3B /* Nuke.framework */,
-				0C22DA2C1BCAA220006E1D3B /* Nuke.framework */,
+				0C22D9C51BCA9734006E1D3B /* NukeWebP.framework */,
+				0C22DA2C1BCAA220006E1D3B /* NukeWebP.framework */,
 				0C22DA381BCAA22A006E1D3B /* NukeWebP macOS Tests.xctest */,
-				0CC345971BD96CFE005C2DD8 /* Nuke.framework */,
+				0CC345971BD96CFE005C2DD8 /* NukeWebP.framework */,
 				0CC345A31BD96D2A005C2DD8 /* NukeWebP tvOS Tests.xctest */,
 				0C8D7BD01D9DBF1600D12EB7 /* NukeWebP iOS Tests Host.app */,
 				0C8D7BE81D9DC02B00D12EB7 /* NukeWebP iOS Performance Tests.xctest */,
@@ -549,7 +549,7 @@
 			);
 			name = "NukeWebP watchOS";
 			productName = "Nuke watchOS";
-			productReference = 0C22D9C51BCA9734006E1D3B /* Nuke.framework */;
+			productReference = 0C22D9C51BCA9734006E1D3B /* NukeWebP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C22DA2B1BCAA220006E1D3B /* NukeWebP macOS */ = {
@@ -567,7 +567,7 @@
 			);
 			name = "NukeWebP macOS";
 			productName = "Nuke OSX";
-			productReference = 0C22DA2C1BCAA220006E1D3B /* Nuke.framework */;
+			productReference = 0C22DA2C1BCAA220006E1D3B /* NukeWebP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0C22DA371BCAA22A006E1D3B /* NukeWebP macOS Tests */ = {
@@ -677,7 +677,7 @@
 			);
 			name = "NukeWebP tvOS";
 			productName = "Nuke tvOS";
-			productReference = 0CC345971BD96CFE005C2DD8 /* Nuke.framework */;
+			productReference = 0CC345971BD96CFE005C2DD8 /* NukeWebP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0CC345A21BD96D2A005C2DD8 /* NukeWebP tvOS Tests */ = {
@@ -1093,7 +1093,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
@@ -1116,7 +1116,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
@@ -1141,7 +1141,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1164,7 +1164,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1234,7 +1234,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/Host/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ryokosuge.NukeWebP-iOS-Tests-Host";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1254,7 +1254,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Tests/Host/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ryokosuge.NukeWebP-iOS-Tests-Host";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1347,7 +1347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1397,7 +1397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1465,7 +1465,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -1488,7 +1488,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ryokosuge.NukeWebP;
-				PRODUCT_NAME = Nuke;
+				PRODUCT_NAME = NukeWebP;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
