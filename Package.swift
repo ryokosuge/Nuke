@@ -1,6 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "Nuke",
+    name: "NukeWebP",
     exclude: ["Tests"] // excluding until all module layouts get supported
 )
