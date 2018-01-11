@@ -18,4 +18,8 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = '9.0'
 
     s.source_files  = 'Sources/**/*'
+    s.dependency 'libwebp'
+    s.xcconfig = {
+      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
+    }
 end
