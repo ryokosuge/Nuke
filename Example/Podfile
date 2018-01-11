@@ -1,8 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'NukeDemo' do
-	pod 'Nuke', :path => '../'
+platform :ios, '9.0'
+
+target 'NukeWebPDemo' do
+	pod 'Nuke-WebP', :path => '../'
 	pod 'DFCache'
 	pod 'Preheat', '~>3.0'
 end

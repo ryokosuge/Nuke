@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "NukeDemo_Example.app"
-               BlueprintName = "NukeDemo"
-               ReferencedContainer = "container:NukeDemo.xcodeproj">
+               BuildableName = "NukeWebPDemo_Example.app"
+               BlueprintName = "NukeWebPDemo"
+               ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "Nuke Demo_Example.xctest"
                BlueprintName = "Nuke Demo_Tests"
-               ReferencedContainer = "container:NukeDemo.xcodeproj">
+               ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "Nuke Demo_Example.xctest"
                BlueprintName = "Nuke Demo_Tests"
-               ReferencedContainer = "container:NukeDemo.xcodeproj">
+               ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NukeDemo_Example.app"
-            BlueprintName = "NukeDemo"
-            ReferencedContainer = "container:NukeDemo.xcodeproj">
+            BuildableName = "NukeWebPDemo_Example.app"
+            BlueprintName = "NukeWebPDemo"
+            ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NukeDemo_Example.app"
-            BlueprintName = "NukeDemo"
-            ReferencedContainer = "container:NukeDemo.xcodeproj">
+            BuildableName = "NukeWebPDemo_Example.app"
+            BlueprintName = "NukeWebPDemo"
+            ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -110,9 +110,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "NukeDemo_Example.app"
-            BlueprintName = "NukeDemo"
-            ReferencedContainer = "container:NukeDemo.xcodeproj">
+            BuildableName = "NukeWebPDemo_Example.app"
+            BlueprintName = "NukeWebPDemo"
+            ReferencedContainer = "container:NukeWebPDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
