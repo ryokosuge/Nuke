@@ -6,7 +6,7 @@
 //
 
 #import "WebPDecoder.h"
-#import "WebP/decode.h"
+#import "webp/decode.h"
 
 void free_image_data(void *info, const void *data, size_t size) {
     if (info != NULL) {

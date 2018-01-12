@@ -139,10 +139,6 @@
 		F828B82420089C0E00AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
 		F828B82520089C0E00AC1D02 /* WebPDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */; };
 		F828B82620089C0E00AC1D02 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F828B82120089C0E00AC1D02 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F828B82720089C0E00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
-		F828B82820089C1C00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
-		F828B82920089C1E00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
-		F828B82A20089C2000AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
 		F828B82B20089C2800AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
 		F828B82C20089C2800AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
 		F828B82D20089C2900AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
@@ -278,7 +274,6 @@
 		F828B81F20089C0E00AC1D02 /* WebPDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPDecoder.m; sourceTree = "<group>"; };
 		F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPDataDecoder.swift; sourceTree = "<group>"; };
 		F828B82120089C0E00AC1D02 /* WebPDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPDecoder.h; sourceTree = "<group>"; };
-		F828B82320089C0E00AC1D02 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,7 +281,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F828B82920089C1E00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +288,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F828B82820089C1C00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +326,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F828B82720089C0E00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +333,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F828B82A20089C2000AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +370,6 @@
 				0CF4DE7C1D412A9E00170289 /* Preheater.swift */,
 				0C0FD5D81CA47FE1002A78FB /* Processor.swift */,
 				0C0FD5D91CA47FE1002A78FB /* Request.swift */,
-				F828B82220089C0E00AC1D02 /* Frameworks */,
 				F828B81E20089C0E00AC1D02 /* WebP */,
 			);
 			path = Sources;
@@ -530,14 +520,6 @@
 				F828B82120089C0E00AC1D02 /* WebPDecoder.h */,
 			);
 			path = WebP;
-			sourceTree = "<group>";
-		};
-		F828B82220089C0E00AC1D02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F828B82320089C0E00AC1D02 /* WebP.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
