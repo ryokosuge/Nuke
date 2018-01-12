@@ -136,6 +136,22 @@
 		0CF4DE7E1D412A9E00170289 /* Preheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4DE7C1D412A9E00170289 /* Preheater.swift */; };
 		0CF4DE7F1D412A9E00170289 /* Preheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4DE7C1D412A9E00170289 /* Preheater.swift */; };
 		0CF4DE801D412A9E00170289 /* Preheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4DE7C1D412A9E00170289 /* Preheater.swift */; };
+		F828B82420089C0E00AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
+		F828B82520089C0E00AC1D02 /* WebPDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */; };
+		F828B82620089C0E00AC1D02 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F828B82120089C0E00AC1D02 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F828B82720089C0E00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
+		F828B82820089C1C00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
+		F828B82920089C1E00AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
+		F828B82A20089C2000AC1D02 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828B82320089C0E00AC1D02 /* WebP.framework */; };
+		F828B82B20089C2800AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
+		F828B82C20089C2800AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
+		F828B82D20089C2900AC1D02 /* WebPDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F828B81F20089C0E00AC1D02 /* WebPDecoder.m */; };
+		F828B82E20089C2D00AC1D02 /* WebPDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */; };
+		F828B82F20089C2D00AC1D02 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F828B82120089C0E00AC1D02 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F828B83020089C2D00AC1D02 /* WebPDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */; };
+		F828B83120089C2D00AC1D02 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F828B82120089C0E00AC1D02 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F828B83220089C2E00AC1D02 /* WebPDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */; };
+		F828B83320089C2E00AC1D02 /* WebPDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F828B82120089C0E00AC1D02 /* WebPDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +275,10 @@
 		0CE3992C1D4697CE00A87D47 /* LoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderTests.swift; sourceTree = "<group>"; };
 		0CE745741D4767B900123F65 /* MockDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataDecoder.swift; sourceTree = "<group>"; };
 		0CF4DE7C1D412A9E00170289 /* Preheater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preheater.swift; sourceTree = "<group>"; };
+		F828B81F20089C0E00AC1D02 /* WebPDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPDecoder.m; sourceTree = "<group>"; };
+		F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPDataDecoder.swift; sourceTree = "<group>"; };
+		F828B82120089C0E00AC1D02 /* WebPDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPDecoder.h; sourceTree = "<group>"; };
+		F828B82320089C0E00AC1D02 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +286,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F828B82920089C1E00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +294,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F828B82820089C1C00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +333,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F828B82720089C0E00AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +341,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F828B82A20089C2000AC1D02 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,17 +368,19 @@
 		0C096C7B1BAE9ADD007FE380 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0C0FD5DF1CA47FE1002A78FB /* Nuke.swift */,
-				0C1ECA4B1D526964009063A9 /* Manager.swift */,
-				0C0FD5D31CA47FE1002A78FB /* Loader.swift */,
-				0C0FD5D91CA47FE1002A78FB /* Request.swift */,
 				0C0FD5D71CA47FE1002A78FB /* Cache.swift */,
-				0C0FD5D01CA47FE1002A78FB /* DataLoader.swift */,
-				0C0FD5D11CA47FE1002A78FB /* DataDecoder.swift */,
-				0C0FD5D81CA47FE1002A78FB /* Processor.swift */,
-				0CF4DE7C1D412A9E00170289 /* Preheater.swift */,
 				0C34BF661D4D15B6006B8A57 /* CancellationToken.swift */,
+				0C0FD5D11CA47FE1002A78FB /* DataDecoder.swift */,
+				0C0FD5D01CA47FE1002A78FB /* DataLoader.swift */,
 				0C7150081FC9724C00B880AC /* Internal.swift */,
+				0C0FD5D31CA47FE1002A78FB /* Loader.swift */,
+				0C1ECA4B1D526964009063A9 /* Manager.swift */,
+				0C0FD5DF1CA47FE1002A78FB /* Nuke.swift */,
+				0CF4DE7C1D412A9E00170289 /* Preheater.swift */,
+				0C0FD5D81CA47FE1002A78FB /* Processor.swift */,
+				0C0FD5D91CA47FE1002A78FB /* Request.swift */,
+				F828B82220089C0E00AC1D02 /* Frameworks */,
+				F828B81E20089C0E00AC1D02 /* WebP */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -496,6 +522,24 @@
 			name = Metadata;
 			sourceTree = "<group>";
 		};
+		F828B81E20089C0E00AC1D02 /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				F828B81F20089C0E00AC1D02 /* WebPDecoder.m */,
+				F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */,
+				F828B82120089C0E00AC1D02 /* WebPDecoder.h */,
+			);
+			path = WebP;
+			sourceTree = "<group>";
+		};
+		F828B82220089C0E00AC1D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F828B82320089C0E00AC1D02 /* WebP.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -504,6 +548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C778CFF1D89634B00361A1F /* NukeWebP.h in Headers */,
+				F828B83120089C2D00AC1D02 /* WebPDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C778CFE1D89634B00361A1F /* NukeWebP.h in Headers */,
+				F828B82F20089C2D00AC1D02 /* WebPDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C778CFD1D89634B00361A1F /* NukeWebP.h in Headers */,
+				F828B82620089C0E00AC1D02 /* WebPDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C778D001D89634B00361A1F /* NukeWebP.h in Headers */,
+				F828B83320089C2E00AC1D02 /* WebPDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,8 +902,10 @@
 			files = (
 				0C0FD6021CA47FE1002A78FB /* Processor.swift in Sources */,
 				0C0FD5FE1CA47FE1002A78FB /* Cache.swift in Sources */,
+				F828B83020089C2D00AC1D02 /* WebPDataDecoder.swift in Sources */,
 				0C0FD5E61CA47FE1002A78FB /* DataDecoder.swift in Sources */,
 				0C0FD5EE1CA47FE1002A78FB /* Loader.swift in Sources */,
+				F828B82C20089C2800AC1D02 /* WebPDecoder.m in Sources */,
 				0C0FD5E21CA47FE1002A78FB /* DataLoader.swift in Sources */,
 				0C0FD61E1CA47FE1002A78FB /* Nuke.swift in Sources */,
 				0CF4DE7F1D412A9E00170289 /* Preheater.swift in Sources */,
@@ -872,8 +922,10 @@
 			files = (
 				0C0FD6011CA47FE1002A78FB /* Processor.swift in Sources */,
 				0C0FD5FD1CA47FE1002A78FB /* Cache.swift in Sources */,
+				F828B82E20089C2D00AC1D02 /* WebPDataDecoder.swift in Sources */,
 				0C0FD5E51CA47FE1002A78FB /* DataDecoder.swift in Sources */,
 				0C0FD5ED1CA47FE1002A78FB /* Loader.swift in Sources */,
+				F828B82B20089C2800AC1D02 /* WebPDecoder.m in Sources */,
 				0C34BF681D4D15B6006B8A57 /* CancellationToken.swift in Sources */,
 				0C0FD5E11CA47FE1002A78FB /* DataLoader.swift in Sources */,
 				0C0FD61D1CA47FE1002A78FB /* Nuke.swift in Sources */,
@@ -968,8 +1020,10 @@
 			files = (
 				0C0FD6001CA47FE1002A78FB /* Processor.swift in Sources */,
 				0C0FD5FC1CA47FE1002A78FB /* Cache.swift in Sources */,
+				F828B82520089C0E00AC1D02 /* WebPDataDecoder.swift in Sources */,
 				0C0FD5E41CA47FE1002A78FB /* DataDecoder.swift in Sources */,
 				0C0FD5EC1CA47FE1002A78FB /* Loader.swift in Sources */,
+				F828B82420089C0E00AC1D02 /* WebPDecoder.m in Sources */,
 				0C34BF671D4D15B6006B8A57 /* CancellationToken.swift in Sources */,
 				0C0FD5E01CA47FE1002A78FB /* DataLoader.swift in Sources */,
 				0C0FD61C1CA47FE1002A78FB /* Nuke.swift in Sources */,
@@ -986,8 +1040,10 @@
 			files = (
 				0C0FD6031CA47FE1002A78FB /* Processor.swift in Sources */,
 				0C0FD5FF1CA47FE1002A78FB /* Cache.swift in Sources */,
+				F828B83220089C2E00AC1D02 /* WebPDataDecoder.swift in Sources */,
 				0C0FD5E71CA47FE1002A78FB /* DataDecoder.swift in Sources */,
 				0C0FD5EF1CA47FE1002A78FB /* Loader.swift in Sources */,
+				F828B82D20089C2900AC1D02 /* WebPDecoder.m in Sources */,
 				0C34BF6A1D4D15B6006B8A57 /* CancellationToken.swift in Sources */,
 				0C0FD5E31CA47FE1002A78FB /* DataLoader.swift in Sources */,
 				0C0FD61F1CA47FE1002A78FB /* Nuke.swift in Sources */,
@@ -1089,6 +1145,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1112,6 +1172,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1135,6 +1199,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1158,6 +1226,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1419,6 +1491,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1440,6 +1516,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1461,6 +1541,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1484,6 +1568,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/Frameworks",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

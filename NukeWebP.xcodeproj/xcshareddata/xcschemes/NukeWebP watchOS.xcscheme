@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
-               BuildableName = "Nuke.framework"
+               BuildableName = "NukeWebP.framework"
                BlueprintName = "NukeWebP watchOS"
                ReferencedContainer = "container:NukeWebP.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
-            BuildableName = "Nuke.framework"
+            BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP watchOS"
             ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C22D9C41BCA9734006E1D3B"
-            BuildableName = "Nuke.framework"
+            BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP watchOS"
             ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>

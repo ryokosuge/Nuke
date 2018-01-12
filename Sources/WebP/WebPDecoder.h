@@ -5,7 +5,7 @@
 //  Created by nagisa-kosuge on 2018/01/12.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface WebPDecoder : NSObject
 

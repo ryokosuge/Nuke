@@ -4,5 +4,7 @@
 
 @import Foundation;
 
+#import "WebPDecoder.h"
+
 FOUNDATION_EXPORT double NukeWebPVersionNumber;
 FOUNDATION_EXPORT const unsigned char NukeWebPVersionString[];

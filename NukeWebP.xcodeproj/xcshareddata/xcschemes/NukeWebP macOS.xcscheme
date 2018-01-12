@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
-               BuildableName = "Nuke.framework"
+               BuildableName = "NukeWebP.framework"
                BlueprintName = "NukeWebP macOS"
                ReferencedContainer = "container:NukeWebP.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
-            BuildableName = "Nuke.framework"
+            BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP macOS"
             ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
-            BuildableName = "Nuke.framework"
+            BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP macOS"
             ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C22DA2B1BCAA220006E1D3B"
-            BuildableName = "Nuke.framework"
+            BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP macOS"
             ReferencedContainer = "container:NukeWebP.xcodeproj">
          </BuildableReference>
