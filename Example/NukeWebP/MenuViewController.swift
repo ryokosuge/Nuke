@@ -67,6 +67,13 @@ final class MenuViewController: UITableViewController {
                 controller.title = $0.title
                 self?.push(controller)
             })
+
+            items.append(MenuItem(title: "WebP Demo", subtitle: "Load webp image.", action: { [weak self] in
+                if let controller = WebPDemoViewController.storyboardRef() {
+                    controller.title = $0.title
+                    self?.push(controller)
+                }
+            }))
             return items
         }()))
     }

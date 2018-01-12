@@ -17,6 +17,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		928457CD5CEA8A60C3F2557E /* Pods_NukeWebPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7FC4ADD44A81708915C58F /* Pods_NukeWebPDemo.framework */; };
+		F8ECA7C0200895F400860DDA /* WebPDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE9940B4EF48E1A3CF3FA8DD /* Pods-NukeWebPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NukeWebPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NukeWebPDemo/Pods-NukeWebPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D41C16807F95F83FB63DA311 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */,
 			);
 			name = Example;
 			path = NukeWebP;
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0CCD9E1BACC1A7002D10D5 /* PreheatingDemoViewController.swift in Sources */,
+				F8ECA7C0200895F400860DDA /* WebPDemoViewController.swift in Sources */,
 				0C826FA51BAC066E0069FCE1 /* BasicDemoViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* MenuViewController.swift in Sources */,
 				0C3A69CE1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift in Sources */,

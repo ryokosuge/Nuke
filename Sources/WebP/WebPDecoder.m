@@ -40,17 +40,12 @@ void free_image_data(void *info, const void *data, size_t size) {
     int width = config->input.width;
     int height = config->input.height;
 
-    uint8_t *rgbaData;
+    uint8_t *rgbaData = WebPDecodeRGBA([data bytes], [data length], &width, &height);
 
-    if (config->input.has_alpha != 0) {
-        rgbaData = WebPDecodeRGBA([data bytes], [data length], &width, &height);
-    } else {
-        rgbaData = WebPDecodeRGB([data bytes], [data length], &width, &height);
-    }
+    int components = 4;
+    NSLog(@"components: %d", components);
 
-    int components = config->input.has_alpha != 0 ? 4 : 3;
-
-    CGDataProviderRef provider = CGDataProviderCreateWithData(config, rgbaData, config->options.scaled_width * config->options.scaled_width * components, free_image_data);
+    CGDataProviderRef provider = CGDataProviderCreateWithData(config, rgbaData, config->options.scaled_width * config->options.scaled_height * components, free_image_data);
     if (!provider) {
         return nil;
     }

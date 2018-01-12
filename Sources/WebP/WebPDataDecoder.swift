@@ -9,6 +9,8 @@ import Foundation
 
 public struct WebPDataDecoder: DataDecoding {
 
+    public init() { }
+
     public func decode(data: Data, response: URLResponse) -> Image? {
         return WebPDecoder.decodeWebPData(data)
     }

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -69,6 +70,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="are-6f-DKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="112" y="-195"/>
+        </scene>
+        <!--WebP Demo View Controller-->
+        <scene sceneID="RRE-pE-gwc">
+            <objects>
+                <viewController storyboardIdentifier="WebPDemoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="g54-m4-7kp" customClass="WebPDemoViewController" customModule="NukeWebPDemo_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yeP-b4-wKQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DeK-Mb-jUa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hSi-XJ-fSd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YhC-f5-TNg">
+                                <rect key="frame" x="32" y="229" width="311" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YhC-f5-TNg" secondAttribute="height" multiplier="320:214" id="Hxi-d8-MEH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YhC-f5-TNg" secondAttribute="trailing" constant="32" id="0po-qC-mKf"/>
+                            <constraint firstItem="YhC-f5-TNg" firstAttribute="leading" secondItem="hSi-XJ-fSd" secondAttribute="leading" constant="32" id="S92-yO-Oh6"/>
+                            <constraint firstItem="YhC-f5-TNg" firstAttribute="centerY" secondItem="hSi-XJ-fSd" secondAttribute="centerY" id="cDI-vM-6MJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="YhC-f5-TNg" id="qoP-F8-TOz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KR-So-KGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="-196"/>
         </scene>
     </scenes>
 </document>
