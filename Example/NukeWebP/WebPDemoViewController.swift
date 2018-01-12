@@ -31,7 +31,7 @@ class WebPDemoViewController: UIViewController {
         // Do any additional setup after loading the view.
         let url = URL(string: "https://www.gstatic.com/webp/gallery/1.sm.webp")!
         if let imageView = self.imageView {
-            manager.loadImage(with: url, into: imageView)
+            NukeWebP.Manager.shared.loadImage(with: url, into: imageView)
         }
     }
 
