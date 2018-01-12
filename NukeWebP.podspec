@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
     s.xcconfig = {
         'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
     }
-    s.dependency 'libwebp'
+    s.dependency 'libwebp', '0.6.0'
 
 end
