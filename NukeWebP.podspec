@@ -12,14 +12,17 @@ Pod::Spec.new do |s|
     s.social_media_url = 'https://twitter.com/ryo_kosuge'
     s.source           = { :git => 'https://github.com/ryokosuge/Nuke-WebP.git', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '9.0'
-    s.watchos.deployment_target = '2.0'
-    s.osx.deployment_target = '10.11'
-    s.tvos.deployment_target = '9.0'
+    s.requires_arc		= true
 
-    s.source_files  = 'Sources/**/*'
-    s.dependency 'libwebp'
+    s.ios.deployment_target = '9.0'
+    # s.watchos.deployment_target = '2.0'
+    # s.osx.deployment_target = '10.11'
+    # s.tvos.deployment_target = '9.0'
+
+    s.source_files  = 'Sources/**/*.swift', 'Sources/WebP/*.{h,m}'
+
     s.xcconfig = {
       'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
     }
+    s.dependency 'libwebp'
 end
