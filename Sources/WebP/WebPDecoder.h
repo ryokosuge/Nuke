@@ -14,10 +14,6 @@
     #if NUKE_WEBP_UIKIT
         #import <UIKit/UIKit.h>
     #endif
-
-    #if NUKE_WEBP_WATCH
-        #import <WatchKit/WatchKit.h>
-    #endif
     #define Image   UIImage
 #endif
 

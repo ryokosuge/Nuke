@@ -35,10 +35,4 @@
     #define NUKE_WEBP_TV 0
 #endif
 
-#if TARGET_OS_WATCH
-    #define NUKE_WEBP_WATCH 1
-#else
-    #define NUKE_WEBP_WATCH 0
-#endif
-
 #endif /* NukeWebPMacros_h */
