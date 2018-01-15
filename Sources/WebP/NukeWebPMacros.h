@@ -2,7 +2,7 @@
 //  NukeWebPMacros.h
 //  NukeWebP
 //
-//  Created by nagisa-kosuge on 2018/01/15.
+//  Created by ryokosuge on 2018/01/15.
 //  Copyright © 2018年 RyoKosuge. All rights reserved.
 //
 

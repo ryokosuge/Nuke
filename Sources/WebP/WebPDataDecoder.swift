@@ -2,7 +2,8 @@
 //  WebPDataDecoder.swift
 //  NukeWebP
 //
-//  Created by nagisa-kosuge on 2018/01/12.
+//  Created by ryokosuge on 2018/01/12.
+//  Copyright © 2018年 RyoKosuge. All rights reserved.
 //
 
 import Foundation
