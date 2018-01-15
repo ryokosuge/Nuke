@@ -94,7 +94,7 @@
 				F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */,
 			);
 			name = Example;
-			path = NukeWebP;
+			path = "Nuke-WebP";
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NukeWebPDemo" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke-WebPDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,7 +226,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NukeWebPDemo/Pods-NukeWebPDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DFCache/DFCache.framework",
-				"${BUILT_PRODUCTS_DIR}/NukeWebP/NukeWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke-WebP/NukeWebP.framework",
 				"${BUILT_PRODUCTS_DIR}/Preheat/Preheat.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
@@ -387,7 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NukeWebP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Nuke-WebP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -403,7 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = NukeWebP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Nuke-WebP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -417,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NukeWebPDemo" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke-WebPDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
