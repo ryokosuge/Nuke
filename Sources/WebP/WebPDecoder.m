@@ -55,10 +55,10 @@ void free_image_data(void *info, const void *data, size_t size) {
     CGImageRef imageRef = CGImageCreate(width, height, 8, 8 * pixelLength, pixelLength * width, colorSpaceRef, bitmapInfo, providerRef, NULL, NO, renderingIntent);
     Image *image = nil;
 
-    #if TARGET_OS_IOS || TARGET_OS_TV || TARGET_OS_WATCH
-        image = [UIImage imageWithCGImage:imageRef];
-    #elif TARGET_OS_OSX
+    #if NUKE_WEBP_MAC
         image = [[NSImage alloc] initWithCGImage: imageRef size: CGSizeZero];
+    #else
+        image = [UIImage imageWithCGImage:imageRef];
     #endif
 
     CGImageRelease(imageRef);

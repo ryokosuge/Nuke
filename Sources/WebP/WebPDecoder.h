@@ -5,12 +5,20 @@
 //  Created by nagisa-kosuge on 2018/01/12.
 //
 
-#if TARGET_OS_IOS || TARGET_OS_TV || TARGET_OS_WATCH
-    #import <UIKit/UIKit.h>
-    #define Image UIImage
+#import "NukeWebPMacros.h"
+
+#if NUKE_WEBP_MAC
+    #import <AppKit/AppKit.h>
+    #define Image   NSImage
 #else
-    #import <Cocoa/Cocoa.h>
-    #define Image NSImage
+    #if NUKE_WEBP_UIKIT
+        #import <UIKit/UIKit.h>
+    #endif
+
+    #if NUKE_WEBP_WATCH
+        #import <WatchKit/WatchKit.h>
+    #endif
+    #define Image   UIImage
 #endif
 
 @interface WebPDecoder : NSObject

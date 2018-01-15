@@ -768,6 +768,10 @@
 		F89D0E082008B587006FE542 /* quant_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = F89D0DCA2008B587006FE542 /* quant_dec.c */; };
 		F89D0E092008B587006FE542 /* quant_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = F89D0DCA2008B587006FE542 /* quant_dec.c */; };
 		F89D0E0A2008B587006FE542 /* quant_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = F89D0DCA2008B587006FE542 /* quant_dec.c */; };
+		F8B2DCD4200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B2DCD5200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B2DCD6200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B2DCD7200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1049,6 +1053,7 @@
 		F89D0DC82008B587006FE542 /* vp8i_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vp8i_dec.h; path = Carthage/Checkouts/libwebp/src/dec/vp8i_dec.h; sourceTree = "<group>"; };
 		F89D0DC92008B587006FE542 /* alphai_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alphai_dec.h; path = Carthage/Checkouts/libwebp/src/dec/alphai_dec.h; sourceTree = "<group>"; };
 		F89D0DCA2008B587006FE542 /* quant_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quant_dec.c; path = Carthage/Checkouts/libwebp/src/dec/quant_dec.c; sourceTree = "<group>"; };
+		F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NukeWebPMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1294,6 +1299,7 @@
 				F828B81F20089C0E00AC1D02 /* WebPDecoder.m */,
 				F828B82020089C0E00AC1D02 /* WebPDataDecoder.swift */,
 				F828B82120089C0E00AC1D02 /* WebPDecoder.h */,
+				F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */,
 			);
 			path = WebP;
 			sourceTree = "<group>";
@@ -1533,6 +1539,7 @@
 			files = (
 				F89D0CBD2008B525006FE542 /* dsp.h in Headers */,
 				F89D0BFE2008B504006FE542 /* vp8i_enc.h in Headers */,
+				F8B2DCD6200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */,
 				F89D0B612008B4CC006FE542 /* encode.h in Headers */,
 				F89D0B752008B4CC006FE542 /* mux_types.h in Headers */,
 				F89D0AF92008B4A7006FE542 /* utils.h in Headers */,
@@ -1585,6 +1592,7 @@
 			files = (
 				F89D0CBC2008B525006FE542 /* dsp.h in Headers */,
 				F89D0BFD2008B504006FE542 /* vp8i_enc.h in Headers */,
+				F8B2DCD5200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */,
 				F89D0B602008B4CC006FE542 /* encode.h in Headers */,
 				F89D0B742008B4CC006FE542 /* mux_types.h in Headers */,
 				F89D0AF82008B4A7006FE542 /* utils.h in Headers */,
@@ -1637,6 +1645,7 @@
 			files = (
 				F89D0CBB2008B525006FE542 /* dsp.h in Headers */,
 				F89D0BFC2008B504006FE542 /* vp8i_enc.h in Headers */,
+				F8B2DCD4200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */,
 				F89D0B5F2008B4CC006FE542 /* encode.h in Headers */,
 				F89D0B732008B4CC006FE542 /* mux_types.h in Headers */,
 				F89D0AF72008B4A7006FE542 /* utils.h in Headers */,
@@ -1689,6 +1698,7 @@
 			files = (
 				F89D0CBE2008B525006FE542 /* dsp.h in Headers */,
 				F89D0BFF2008B504006FE542 /* vp8i_enc.h in Headers */,
+				F8B2DCD7200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */,
 				F89D0B622008B4CC006FE542 /* encode.h in Headers */,
 				F89D0B762008B4CC006FE542 /* mux_types.h in Headers */,
 				F89D0AFA2008B4A7006FE542 /* utils.h in Headers */,
