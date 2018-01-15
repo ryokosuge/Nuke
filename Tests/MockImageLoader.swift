@@ -3,18 +3,18 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
 private let image: Image = {
     let bundle = Bundle(for: MockImageLoader.self)
     let URL = bundle.url(forResource: "Image", withExtension: "jpg")
     let data = try! Data(contentsOf: URL!)
-    return Nuke.DataDecoder().decode(data: data, response: URLResponse())!
+    return NukeWebP.DataDecoder().decode(data: data, response: URLResponse())!
 }()
 
 class MockImageLoader: Loading {
-    static let DidStartTask = Notification.Name("com.github.kean.Nuke.Tests.MockLoader.DidStartTask")
-    static let DidCancelTask = Notification.Name("com.github.kean.Nuke.Tests.MockLoader.DidCancelTask")
+    static let DidStartTask = Notification.Name("com.github.ryokosuge.NukeWebP.Tests.MockLoader.DidStartTask")
+    static let DidCancelTask = Notification.Name("com.github.ryokosuge.NukeWebP.Tests.MockLoader.DidCancelTask")
     
     var createdTaskCount = 0
     let queue: OperationQueue = {

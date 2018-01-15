@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
 private let data: Data = {
     let bundle = Bundle(for: MockDataLoader.self)
@@ -12,8 +12,8 @@ private let data: Data = {
 }()
 
 class MockDataLoader: DataLoading {
-    static let DidStartTask = Notification.Name("com.github.kean.Nuke.Tests.MockDataLoader.DidStartTask")
-    static let DidCancelTask = Notification.Name("com.github.kean.Nuke.Tests.MockDataLoader.DidCancelTask")
+    static let DidStartTask = Notification.Name("com.github.ryokosuge.NukeWebP.Tests.MockDataLoader.DidStartTask")
+    static let DidCancelTask = Notification.Name("com.github.ryokosuge.NukeWebP.Tests.MockDataLoader.DidCancelTask")
     
     var createdTaskCount = 0
     var results = [URL: Result<(Data, URLResponse)>]()

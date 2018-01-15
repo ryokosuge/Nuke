@@ -3,7 +3,7 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import XCTest
-import Nuke
+import NukeWebP
 
 class ManagerTests: XCTestCase {
     var view: ImageView!
@@ -206,7 +206,7 @@ class ManagerLoadingWithoutTargetTests: XCTestCase {
     
     // MARK: Helpers
     
-    func waitLoadedImage(with request: Nuke.Request) {
+    func waitLoadedImage(with request: NukeWebP.Request) {
         expect { fulfill in
             manager.loadImage(with: request, token: nil) {
                 XCTAssertNotNil($0.value)

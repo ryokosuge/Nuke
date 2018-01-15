@@ -64,7 +64,11 @@ public final class Loader: Loading {
     /// Shared `Loading` object.
     ///
     /// Shared loader is created with `DataLoader()`.
-    public static let shared: Loading = Loader(loader: DataLoader())
+    // public static let shared: Loading = Loader(loader: DataLoader())
+    public static let shared: Loading = {
+        let decoder = DataDecoderComposition(decoders: [DataDecoder(), WebPDataDecoder()])
+        return Loader(loader: DataLoader(), decoder: decoder)
+    }()
 
     /// Some nitty-gritty options which can be used to customize loader.
     public struct Options {

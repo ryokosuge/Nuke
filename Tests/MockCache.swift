@@ -3,10 +3,10 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import Foundation
-import Nuke
+import NukeWebP
 
 class MockCache: Caching {
-    let queue = DispatchQueue(label: "com.github.Nuke.MockCache")
+    let queue = DispatchQueue(label: "com.github.ryokosuge.NukeWebP.MockCache")
     var enabled = true
     var images = [AnyHashable: Image]()
     

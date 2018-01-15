@@ -2,9 +2,9 @@
 
 <p align="center">
 <img src="https://img.shields.io/cocoapods/v/Nuke.svg?label=version">
-<img src="https://img.shields.io/badge/supports-CocoaPods%20%7C%20Carthage%20%7C%20SwiftPM-green.svg">
-<img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-lightgrey.svg">
-<a href="https://travis-ci.org/kean/Nuke"><img src="https://img.shields.io/travis/kean/Nuke/master.svg"></a>
+<img src="https://img.shields.io/badge/supports-CocoaPods%20%7C%20Carthage-green.svg">
+<img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS-lightgrey.svg">
+<a href="https://travis-ci.org/ryokosuge/Nuke-WebP"><img src="https://img.shields.io/travis/ryokosuge/Nuke-WebP/master.svg"></a>
 </p>
 
 A powerful **image loading** and **caching** framework which allows for hassle-free image loading in your app.
@@ -13,18 +13,14 @@ A powerful **image loading** and **caching** framework which allows for hassle-f
 
 - Load images into image views or other targets
 - Two [cache layers](https://kean.github.io/post/image-caching), fast LRU memory cache
-- [Alamofire](https://github.com/kean/Nuke-Alamofire-Plugin), [FLAnimatedImage](https://github.com/kean/Nuke-FLAnimatedImage-Plugin), [Gifu](https://github.com/kean/Nuke-Gifu-Plugin) extensions
-- [Freedom to use](#h_design) networking, caching libraries of your choice
-- [RxSwift](https://github.com/ReactiveX/RxSwift) extensions provided by [RxNuke](https://github.com/kean/RxNuke)
 - Automated [prefetching](https://kean.github.io/post/image-preheating) with [Preheat](https://github.com/kean/Preheat) library
 - Small (~1000 lines), [fast](https://github.com/kean/Image-Frameworks-Benchmark) and reliable
-
+- Support [WebP image](https://developers.google.com/speed/webp/?hl=ja).
 
 # <a name="h_getting_started"></a>Quick Start
 
-- [Installation Guide](https://github.com/kean/Nuke/blob/master/Documentation/Guides/Installation%20Guide.md)
-- [Documentation](https://github.com/kean/Nuke/blob/master/Documentation/)
-- [API Reference](http://kean.github.io/Nuke/reference/6.0/index.html)
+- [Installation Guide](https://github.com/ryokosuge/Nuke-WebP/blob/master/Documentation/Guides/Installation%20Guide.md)
+- [Documentation](https://github.com/ryokosuge/Nuke-WebP/blob/master/Documentation/)
 
 Upgrading from the previous version? Use a [migration guide](https://github.com/kean/Nuke/blob/master/Documentation/Migrations).
 
@@ -219,7 +215,7 @@ Nuke provides a fast in-memory cache (`Cache`) which stores processed images rea
 
 # Requirements<a name="h_requirements"></a>
 
-- iOS 9.0 / watchOS 2.0 / macOS 10.11 / tvOS 9.0
+- iOS 9.0
 - Xcode 9
 - Swift 4
 

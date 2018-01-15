@@ -3,10 +3,10 @@
 // Copyright (c) 2017 Alexander Grebenyuk (github.com/kean).
 
 import XCTest
-import Nuke
+import NukeWebP
 
 class CacheTests: XCTestCase {
-    var cache: Nuke.Cache!
+    var cache: NukeWebP.Cache!
 
     override func setUp() {
         super.setUp()
