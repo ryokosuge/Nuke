@@ -16,7 +16,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'Nuke-WebP', '~> 6.0'
+    pod 'Nuke+WebP', '~> 6.0'
 end
 ```
 
