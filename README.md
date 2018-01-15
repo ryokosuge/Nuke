@@ -2,8 +2,8 @@
 
 <p align="center">
 <img src="https://img.shields.io/cocoapods/v/Nuke.svg?label=version">
-<img src="https://img.shields.io/badge/supports-CocoaPods-green.svg">
-<img src="https://img.shields.io/badge/platforms-iOS-lightgrey.svg">
+<img src="https://img.shields.io/badge/supports-CocoaPods%20%7C%20Carthage-green.svg">
+<img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS-lightgrey.svg">
 <a href="https://travis-ci.org/ryokosuge/Nuke-WebP"><img src="https://img.shields.io/travis/ryokosuge/Nuke-WebP/master.svg"></a>
 </p>
 
@@ -20,10 +20,9 @@ A powerful **image loading** and **caching** framework which allows for hassle-f
 - Small (~1000 lines), [fast](https://github.com/kean/Image-Frameworks-Benchmark) and reliable
 - Support [WebP image](https://developers.google.com/speed/webp/?hl=ja).
 
-
 # <a name="h_getting_started"></a>Quick Start
 
-- [Installation Guide](https://github.com/kean/Nuke/blob/master/Documentation/Guides/Installation%20Guide.md)
+- [Installation Guide](https://github.com/ryokosuge/Nuke-WebP/blob/master/Documentation/Guides/Installation%20Guide.md)
 - [Documentation](https://github.com/kean/Nuke/blob/master/Documentation/)
 - [API Reference](http://kean.github.io/Nuke/reference/6.0/index.html)
 
