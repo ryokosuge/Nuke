@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C0CCD9E1BACC1A7002D10D5 /* PreheatingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0CCD9D1BACC1A7002D10D5 /* PreheatingDemoViewController.swift */; };
-		0C3A69CE1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A69CD1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift */; };
-		0C826FA51BAC066E0069FCE1 /* BasicDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C826FA41BAC066E0069FCE1 /* BasicDemoViewController.swift */; };
-		0CE7E9FF1C9C419A0082216D /* CustomCacheDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7E9FE1C9C419A0082216D /* CustomCacheDemoViewController.swift */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* MenuViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		928457CD5CEA8A60C3F2557E /* Pods_NukeWebPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7FC4ADD44A81708915C58F /* Pods_NukeWebPDemo.framework */; };
-		F8ECA7C0200895F400860DDA /* WebPDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */; };
+		F8FCDAC0200CA7D3005E3839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDAB2200CA7D3005E3839 /* AppDelegate.swift */; };
+		F8FCDAC2200CA7D3005E3839 /* CustomCacheDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDAB4200CA7D3005E3839 /* CustomCacheDemoViewController.swift */; };
+		F8FCDAC3200CA7D3005E3839 /* BasicDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDAB5200CA7D3005E3839 /* BasicDemoViewController.swift */; };
+		F8FCDAC6200CA7D3005E3839 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDABB200CA7D3005E3839 /* MenuViewController.swift */; };
+		F8FCDAC7200CA7D3005E3839 /* PreheatingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDABC200CA7D3005E3839 /* PreheatingDemoViewController.swift */; };
+		F8FCDAC9200CA7D3005E3839 /* RateLimiterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDABE200CA7D3005E3839 /* RateLimiterDemoViewController.swift */; };
+		F8FCDACA200CA7D3005E3839 /* WebPDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDABF200CA7D3005E3839 /* WebPDemoViewController.swift */; };
+		F8FCDAD4200CA82B005E3839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FCDACD200CA82B005E3839 /* Images.xcassets */; };
+		F8FCDADB200CA89A005E3839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FCDADD200CA89A005E3839 /* Main.storyboard */; };
+		F8FCDADE200CA8A1005E3839 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FCDAE0200CA8A1005E3839 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C0CCD9D1BACC1A7002D10D5 /* PreheatingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreheatingDemoViewController.swift; sourceTree = "<group>"; };
-		0C3A69CD1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateLimiterDemoViewController.swift; sourceTree = "<group>"; };
-		0C826FA41BAC066E0069FCE1 /* BasicDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDemoViewController.swift; sourceTree = "<group>"; };
-		0CE7E9FE1C9C419A0082216D /* CustomCacheDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCacheDemoViewController.swift; sourceTree = "<group>"; };
 		0E7FC4ADD44A81708915C58F /* Pods_NukeWebPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NukeWebPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C185DB6F0570AF55A3DD86 /* Pods-NukeWebPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NukeWebPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NukeWebPDemo/Pods-NukeWebPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NukeWebPDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NukeWebPDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE9940B4EF48E1A3CF3FA8DD /* Pods-NukeWebPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NukeWebPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NukeWebPDemo/Pods-NukeWebPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D41C16807F95F83FB63DA311 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDAB2200CA7D3005E3839 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8FCDAB4200CA7D3005E3839 /* CustomCacheDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCacheDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDAB5200CA7D3005E3839 /* BasicDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDABB200CA7D3005E3839 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F8FCDABC200CA7D3005E3839 /* PreheatingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreheatingDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDABE200CA7D3005E3839 /* RateLimiterDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateLimiterDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDABF200CA7D3005E3839 /* WebPDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPDemoViewController.swift; sourceTree = "<group>"; };
+		F8FCDACC200CA82B005E3839 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FCDACD200CA82B005E3839 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8FCDADC200CA89A005E3839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8FCDADF200CA8A1005E3839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACD21AFB9204008FA782 /* Example */,
+				F8FCDAB1200CA7B3005E3839 /* Example */,
 				607FACD11AFB9204008FA782 /* Products */,
 				B268730C38EF50AF5D1A33EC /* Frameworks */,
 				2A780CB0152F4705F2EC5D09 /* Pods */,
@@ -78,33 +78,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* MenuViewController.swift */,
-				0C826FA41BAC066E0069FCE1 /* BasicDemoViewController.swift */,
-				0C0CCD9D1BACC1A7002D10D5 /* PreheatingDemoViewController.swift */,
-				0CE7E9FE1C9C419A0082216D /* CustomCacheDemoViewController.swift */,
-				0C3A69CD1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-				F8ECA7BF200895F400860DDA /* WebPDemoViewController.swift */,
-			);
-			name = Example;
-			path = "Nuke-WebP";
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B268730C38EF50AF5D1A33EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +85,33 @@
 				0E7FC4ADD44A81708915C58F /* Pods_NukeWebPDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8FCDAB1200CA7B3005E3839 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8FCDAB2200CA7D3005E3839 /* AppDelegate.swift */,
+				F8FCDAB5200CA7D3005E3839 /* BasicDemoViewController.swift */,
+				F8FCDAB4200CA7D3005E3839 /* CustomCacheDemoViewController.swift */,
+				F8FCDAE0200CA8A1005E3839 /* LaunchScreen.xib */,
+				F8FCDADD200CA89A005E3839 /* Main.storyboard */,
+				F8FCDABB200CA7D3005E3839 /* MenuViewController.swift */,
+				F8FCDABC200CA7D3005E3839 /* PreheatingDemoViewController.swift */,
+				F8FCDABE200CA7D3005E3839 /* RateLimiterDemoViewController.swift */,
+				F8FCDACB200CA7DC005E3839 /* Support files */,
+				F8FCDABF200CA7D3005E3839 /* WebPDemoViewController.swift */,
+			);
+			name = Example;
+			path = "Nuke+WebP";
+			sourceTree = "<group>";
+		};
+		F8FCDACB200CA7DC005E3839 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FCDACD200CA82B005E3839 /* Images.xcassets */,
+				F8FCDACC200CA82B005E3839 /* Info.plist */,
+			);
+			name = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,11 +149,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke-WebPDemo" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke+WebP_Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,9 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				F8FCDADE200CA8A1005E3839 /* LaunchScreen.xib in Resources */,
+				F8FCDADB200CA89A005E3839 /* Main.storyboard in Resources */,
+				F8FCDAD4200CA82B005E3839 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +226,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NukeWebPDemo/Pods-NukeWebPDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DFCache/DFCache.framework",
-				"${BUILT_PRODUCTS_DIR}/Nuke-WebP/NukeWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke+WebP/NukeWebP.framework",
 				"${BUILT_PRODUCTS_DIR}/Preheat/Preheat.framework",
 				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
@@ -249,31 +249,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0CCD9E1BACC1A7002D10D5 /* PreheatingDemoViewController.swift in Sources */,
-				F8ECA7C0200895F400860DDA /* WebPDemoViewController.swift in Sources */,
-				0C826FA51BAC066E0069FCE1 /* BasicDemoViewController.swift in Sources */,
-				607FACD81AFB9204008FA782 /* MenuViewController.swift in Sources */,
-				0C3A69CE1D8D3E2200339CC2 /* RateLimiterDemoViewController.swift in Sources */,
-				0CE7E9FF1C9C419A0082216D /* CustomCacheDemoViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F8FCDAC3200CA7D3005E3839 /* BasicDemoViewController.swift in Sources */,
+				F8FCDACA200CA7D3005E3839 /* WebPDemoViewController.swift in Sources */,
+				F8FCDAC7200CA7D3005E3839 /* PreheatingDemoViewController.swift in Sources */,
+				F8FCDAC0200CA7D3005E3839 /* AppDelegate.swift in Sources */,
+				F8FCDAC2200CA7D3005E3839 /* CustomCacheDemoViewController.swift in Sources */,
+				F8FCDAC9200CA7D3005E3839 /* RateLimiterDemoViewController.swift in Sources */,
+				F8FCDAC6200CA7D3005E3839 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		F8FCDADD200CA89A005E3839 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				F8FCDADC200CA89A005E3839 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		F8FCDAE0200CA8A1005E3839 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				F8FCDADF200CA8A1005E3839 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -386,13 +386,15 @@
 			baseConfigurationReference = 37C185DB6F0570AF55A3DD86 /* Pods-NukeWebPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/Nuke-WebP/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Nuke+WebP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = NukeWebPDemo_Example;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -402,8 +404,9 @@
 			baseConfigurationReference = BE9940B4EF48E1A3CF3FA8DD /* Pods-NukeWebPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/Nuke-WebP/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Nuke+WebP/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -417,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke-WebPDemo" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Nuke+WebP_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,

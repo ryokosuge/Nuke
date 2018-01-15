@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'Nuke-WebP'
+    s.name             = 'Nuke+WebP'
     s.version          = '6.0'
     s.summary          = 'A powerful image loading and caching framework'
     s.description  = <<-EOS
