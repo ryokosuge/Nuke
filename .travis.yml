@@ -23,8 +23,13 @@ env:
   - DESTINATION="arch=x86_64"
     SCHEME="$MACOS_SCHEME"   RUN_TESTS="YES"
 
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+
 script:
   - set -o pipefail
+  - carthage update --no-use-binaries --verbose
   - xcodebuild -version
   - xcodebuild -showsdks
 
