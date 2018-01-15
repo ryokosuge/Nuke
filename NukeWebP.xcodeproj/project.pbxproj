@@ -601,6 +601,7 @@
 		F8B2DCD4200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8B2DCD5200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8B2DCD7200C4FC7008A48D8 /* NukeWebPMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8CB8F6B200CBB65005A0950 /* Nuke+WebP.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F8CB8F6A200CBB65005A0950 /* Nuke+WebP.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -717,7 +718,6 @@
 		0CDB927D1DAF9BA500002905 /* Nuke 4 Migration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Nuke 4 Migration Guide.md"; sourceTree = "<group>"; };
 		0CDB927E1DAF9BA500002905 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CDB92801DAF9BB900002905 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		0CDB92811DAF9BC000002905 /* Nuke-WebP.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Nuke-WebP.podspec"; sourceTree = "<group>"; };
 		0CDB92821DAF9BC600002905 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CE3992C1D4697CE00A87D47 /* LoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderTests.swift; sourceTree = "<group>"; };
 		0CE745741D4767B900123F65 /* MockDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataDecoder.swift; sourceTree = "<group>"; };
@@ -881,6 +881,7 @@
 		F89D0DC92008B587006FE542 /* alphai_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alphai_dec.h; path = Carthage/Checkouts/libwebp/src/dec/alphai_dec.h; sourceTree = "<group>"; };
 		F89D0DCA2008B587006FE542 /* quant_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quant_dec.c; path = Carthage/Checkouts/libwebp/src/dec/quant_dec.c; sourceTree = "<group>"; };
 		F8B2DCD3200C4FC7008A48D8 /* NukeWebPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NukeWebPMacros.h; sourceTree = "<group>"; };
+		F8CB8F6A200CBB65005A0950 /* Nuke+WebP.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Nuke+WebP.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1103,8 +1104,8 @@
 		0CDB927F1DAF9BA900002905 /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				F8CB8F6A200CBB65005A0950 /* Nuke+WebP.podspec */,
 				0CDB92801DAF9BB900002905 /* CHANGELOG.md */,
-				0CDB92811DAF9BC000002905 /* Nuke-WebP.podspec */,
 				0CDB92821DAF9BC600002905 /* README.md */,
 				0CA301701DAF9CD1000B9105 /* .travis.yml */,
 			);
@@ -1705,7 +1706,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "Nuke-WebP" */;
+			buildConfigurationList = 0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "NukeWebP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1776,6 +1777,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CB8F6B200CBB65005A0950 /* Nuke+WebP.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2801,7 +2803,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "Nuke-WebP" */ = {
+		0C91748A1BAE99EE004A7905 /* Build configuration list for PBXProject "NukeWebP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C9174961BAE99EE004A7905 /* Debug */,
