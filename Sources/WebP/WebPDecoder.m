@@ -14,58 +14,58 @@ void free_image_data(void *info, const void *data, size_t size) {
         free(info);
     }
 
-    free((void *) data);
+    WebPFree((void *)data);
 }
 
 @implementation WebPDecoder
 
-+ (nullable UIImage *)decodeWebPData:(nonnull NSData *)data {
++ (nullable Image *)decodeWebPData:(nonnull NSData *)data {
+    WebPBitstreamFeatures features;
+    if (WebPGetFeatures([data bytes], [data length], &features) != VP8_STATUS_OK) {
+        return nil;
+    }
 
-    WebPDecoderConfig *config = malloc(sizeof(WebPDecoderConfig));
+    int width = 0, height = 0;
+    uint8_t *webpData = NULL;
+    int pixelLength = 0;
     
-    if (!WebPInitDecoderConfig(config)) {
-        return nil;
+    if (features.has_alpha) {
+        webpData = WebPDecodeRGBA([data bytes], [data length], &width, &height);
+        pixelLength = 4;
+    } else {
+        webpData = WebPDecodeRGB([data bytes], [data length], &width, &height);
+        pixelLength = 3;
     }
 
-    if (WebPGetFeatures([data bytes], [data length], &config->input) != VP8_STATUS_OK) {
-        return nil;
-    }
-
-    config->output.colorspace = config->input.has_alpha != 0 ? MODE_RGBA : MODE_RGB;
-
-    if (WebPDecode([data bytes], [data length], config) != VP8_STATUS_OK) {
+    if (!webpData) {
         return nil;
     }
     
-    int width = config->input.width;
-    int height = config->input.height;
-
-    uint8_t *rgbaData = WebPDecodeRGBA([data bytes], [data length], &width, &height);
-
-    int components = 4;
-    NSLog(@"components: %d", components);
-
-    CGDataProviderRef provider = CGDataProviderCreateWithData(config, rgbaData, config->options.scaled_width * config->options.scaled_height * components, free_image_data);
-    if (!provider) {
-        return nil;
-    }
-
+    CGDataProviderRef providerRef = CGDataProviderCreateWithData(NULL, webpData, width * height * pixelLength, free_image_data);
     CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateDeviceRGB();
-    CGBitmapInfo bitmapInfo = kCGBitmapByteOrderDefault | kCGImageAlphaLast;
-    CGColorRenderingIntent renderingIntent = kCGRenderingIntentDefault;
+    CGBitmapInfo bitmapInfo = kCGBitmapByteOrderDefault;
 
-    CGImageRef imageRef = CGImageCreate(width, height, 8, components * 8, components * width, colorSpaceRef, bitmapInfo, provider, NULL, YES, renderingIntent);
-    if (!imageRef) {
-        return nil;
+    if (features.has_alpha) {
+        bitmapInfo |= kCGImageAlphaLast;
+    } else {
+        bitmapInfo |= kCGImageAlphaNone;
     }
 
-    UIImage *result = [UIImage imageWithCGImage:imageRef];
+    CGColorRenderingIntent renderingIntent = kCGRenderingIntentDefault;
+    CGImageRef imageRef = CGImageCreate(width, height, 8, 8 * pixelLength, pixelLength * width, colorSpaceRef, bitmapInfo, providerRef, NULL, NO, renderingIntent);
+    Image *image = nil;
+
+    #if TARGET_OS_IOS || TARGET_OS_TV || TARGET_OS_WATCH
+        image = [UIImage imageWithCGImage:imageRef];
+    #elif TARGET_OS_OSX
+        image = [[NSImage alloc] initWithCGImage: imageRef size: CGSizeZero];
+    #endif
 
     CGImageRelease(imageRef);
     CGColorSpaceRelease(colorSpaceRef);
-    CGDataProviderRelease(provider);
+    CGDataProviderRelease(providerRef);
 
-    return result;
+    return image;
 }
 
 @end
