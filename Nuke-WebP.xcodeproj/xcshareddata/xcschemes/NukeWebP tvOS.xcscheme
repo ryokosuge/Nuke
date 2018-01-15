@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,21 +17,7 @@
                BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
                BuildableName = "NukeWebP.framework"
                BlueprintName = "NukeWebP tvOS"
-               ReferencedContainer = "container:NukeWebP.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CC345A21BD96D2A005C2DD8"
-               BuildableName = "NukeWebP tvOS Tests.xctest"
-               BlueprintName = "NukeWebP tvOS Tests"
-               ReferencedContainer = "container:NukeWebP.xcodeproj">
+               ReferencedContainer = "container:Nuke-WebP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +36,7 @@
                BlueprintIdentifier = "0CC345A21BD96D2A005C2DD8"
                BuildableName = "NukeWebP tvOS Tests.xctest"
                BlueprintName = "NukeWebP tvOS Tests"
-               ReferencedContainer = "container:NukeWebP.xcodeproj">
+               ReferencedContainer = "container:Nuke-WebP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -60,7 +46,7 @@
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
             BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP tvOS"
-            ReferencedContainer = "container:NukeWebP.xcodeproj">
+            ReferencedContainer = "container:Nuke-WebP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,7 +69,7 @@
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
             BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP tvOS"
-            ReferencedContainer = "container:NukeWebP.xcodeproj">
+            ReferencedContainer = "container:Nuke-WebP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -101,7 +87,7 @@
             BlueprintIdentifier = "0CC345961BD96CFE005C2DD8"
             BuildableName = "NukeWebP.framework"
             BlueprintName = "NukeWebP tvOS"
-            ReferencedContainer = "container:NukeWebP.xcodeproj">
+            ReferencedContainer = "container:Nuke-WebP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
