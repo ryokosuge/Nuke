@@ -16,7 +16,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'NukeWebP', '~> 6.0'
+    pod 'Nuke-WebP', '~> 6.0'
 end
 ```
 
@@ -40,7 +40,7 @@ $ brew install carthage
 To integrate Nuke into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "ryokosuge/NukeWebP" ~> 6.0
+github "ryokosuge/Nuke-WebP" ~> 6.0
 ```
 
 Run `carthage update` to build the framework and drag the built `Nuke.framework` into your Xcode project.
@@ -75,9 +75,9 @@ $ git submodule add https://github.com/ryokosuge/NukeWebP.git
 
 > It does not matter which `Products` folder you choose from, but it does matter whether you choose the top or bottom `NukeWebP.framework`.
 
-- Select the top `Nuke.framework` for iOS and the bottom one for OS X.
+- Select the top `NukeWebP.framework` for iOS and the bottom one for OS X.
 
-> You can verify which one you selected by inspecting the build log for your project. The build target for `NukeWebP` will be listed as either `NukeWebP iOS`, `NukeWebP macOS`, `NukeWeP tvOS`.
+> You can verify which one you selected by inspecting the build log for your project. The build target for `Nuke-WebP` will be listed as either `NukeWebP iOS`, `NukeWebP macOS`, `NukeWeP tvOS`.
 
 - And that's it!
 

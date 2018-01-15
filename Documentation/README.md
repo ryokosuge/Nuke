@@ -1,8 +1,7 @@
 ## Getting Started
 
 - [Installation Guide](https://github.com/ryokosuge/Nuke-WebP/blob/master/Documentation/Guides/Installation%20Guide.md)
-- [Usage Guide](https://github.com/kean/Nuke#usage)
-- [Third Party Libraries](https://github.com/kean/Nuke/blob/master/Documentation/Guides/Third%20Party%20Libraries.md)
+- [Usage Guide](https://github.com/ryokosuge/Nuke-WebP#usage)
 - [Latest API Reference](http://kean.github.io/Nuke/reference/6.0/index.html)
 
 ## Guides
